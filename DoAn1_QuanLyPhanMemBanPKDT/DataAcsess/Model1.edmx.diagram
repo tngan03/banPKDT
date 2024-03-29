@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ca28fb168e984e96b377d82982d6ce2c" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="QLPKDTModel.ChiTietDonHang" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPKDTModel.DonHang" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPKDTModel.KhoHang" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPKDTModel.NhaCC" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPKDTModel.NhanVien" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPKDTModel.SanPham" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPKDTModel.sysdiagrams" Width="1.5" PointX="7.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPKDTModel.TaiKhoan" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="QLPKDTModel.FK__ChiTietDon__MaDH__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPKDTModel.FK__ChiTietDon__MaSP__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPKDTModel.FK__DonHang__MaNV__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPKDTModel.FK__KhoHang__MaSP__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPKDTModel.FK__SanPham__MaNCC__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPKDTModel.FK__NhanVien__Tentk__6E01572D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
